@@ -77,5 +77,24 @@ Item_Outlet_Sales can be improved and must be studied according to certain crite
 - Consider selling online and on social networks.
 - Changing the packaging and place in the supermarket.
 
+## -------------------------------Project 1 - Revisited------------------------------------------------------------------
+  
+  For Linear Regression Model, the top 3 most impactful features are:
+    Outlet_Type_Supermarket Type3 increased item outlet sales by 2,126.20
+    Item_MRP increased item outlet sales by 965.13
+    Outlet_Type_Supermarket Type1 increased item outlet sales by 737.28
+
+ For Decision Tree & Random Forest Models, the top 5 most important features :
+    -Item_MRP
+    -Outlet_Type_Grocery_Store
+    -Item_Visibility
+    -Outlet_Type_Supermarket Type3
+    -Item_Weight
+
+Item_MRP is by far the single most important feature for predicting item outlet sales.
+Outlet_Type_Grocery Store is the second most important.
+Item_Visibility, Outlet_Type_Supermarket Type3, Item_Weight, are somewhat important
+Everything else is unimportant.
+
   ## Future Directions 
   May be change model evaluation such as an improved Random Tree Model and have a better metric results.
