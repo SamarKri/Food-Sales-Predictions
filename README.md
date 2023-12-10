@@ -114,4 +114,24 @@ Item_Visibility, Outlet_Type_Supermarket Type3, Item_Weight, are somewhat import
 Everything else is unimportant.
 
 ![Importances-Random Forest](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/196b4a7a-964e-49ff-ae1f-c9ca32a43f44)
+
+
+* Comparing the top 5 most important features according to SHAP vs. my RandomForest Regressor:
+    - The top 5 most important features were the same according to Shap vs the RandomForest. 
+    - However, the order was slightly different (Item_Visibility is 4th according to shap instead of 3rd).
+ 
+![core_2_importances-SHAP Bar](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/6bd11554-3e9e-48c2-9498-b1ba0f641ee1)
+
+
+* The top 3 most important features and their effects were the following:
+
+    Item_MRP: The higher the MRP, the higher the predicted sales.
+    Outlet_Type_Grocery Store: Being a grocery store dramatically decreased the predicted sales.
+    Outlet_Type_Supermarket Type3: Being a supermarket type 3 dramatically increased the predicted sales.
+
+  ![core_2_importances-SHAP Dot](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/127efb1e-b6b0-4954-9015-f0a6b8bc8fd3)
+
+
+
+      
   
