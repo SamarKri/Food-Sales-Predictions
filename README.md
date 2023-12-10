@@ -90,6 +90,9 @@ Item_Outlet_Sales can be improved and must be studied according to certain crite
     
     -Outlet_Type_Supermarket Type1 increased item outlet sales by 737.28
 
+    ![Coeffs-Linear Regression](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/d6680caf-8a41-4d3d-8e5c-c5f45d09bc42)
+
+
  * For Decision Tree & Random Forest Models, the top 5 most important features :
  
     -Item_MRP
