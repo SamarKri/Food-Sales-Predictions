@@ -80,7 +80,7 @@ Item_Outlet_Sales can be improved and must be studied according to certain crite
 ## Future Directions 
   May be change model evaluation such as an improved Random Tree Model and have a better metric results.
 
-## -------------------------------Project 1 - Revisited-------------------------------------
+## --------------------Project 1 - Revisited------------------------
   
   * For Linear Regression Model, the top 3 most impactful features are:
   
