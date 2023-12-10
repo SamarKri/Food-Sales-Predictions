@@ -113,4 +113,5 @@ Item_Visibility, Outlet_Type_Supermarket Type3, Item_Weight, are somewhat import
 
 Everything else is unimportant.
 
+![Importances-Random Forest](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/196b4a7a-964e-49ff-ae1f-c9ca32a43f44)
   
