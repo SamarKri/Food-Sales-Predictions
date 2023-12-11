@@ -151,10 +151,12 @@ Everything else is unimportant.
       
 * Individual Shap Force Plots
 
+
 ![core_3_force_plot1](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/553a1fb7-1734-4ae7-9a4e-ad746cc655ca)
 
 
-As we can see in the force plot above for example 1: there are some features increasing the prediction such as :
+As we can see in the force plot above for example 1: 
+  There are some features increasing the prediction such as :
     - Item_Visibility
     - Item_Type_Soft Drinks
     - Item_Weight
