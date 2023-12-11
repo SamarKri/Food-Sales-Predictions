@@ -156,6 +156,7 @@ Everything else is unimportant.
 
 
 As we can see in the force plot above for example 1: 
+
   There are some features increasing the prediction such as :
     - Item_Visibility
     - Item_Type_Soft Drinks
