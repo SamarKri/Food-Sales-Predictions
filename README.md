@@ -80,7 +80,9 @@ Item_Outlet_Sales can be improved and must be studied according to certain crite
 ## Future Directions 
   May be change model evaluation such as an improved Random Tree Model and have a better metric results.
 
+
 ## --------------------Project 1 - Revisited------------------------
+
   
   * For Linear Regression Model, the top 3 most impactful features are:
   
@@ -124,12 +126,71 @@ Everything else is unimportant.
 
 
 * The top 3 most important features and their effects were the following:
-
     Item_MRP: The higher the MRP, the higher the predicted sales.
     Outlet_Type_Grocery Store: Being a grocery store dramatically decreased the predicted sales.
     Outlet_Type_Supermarket Type3: Being a supermarket type 3 dramatically increased the predicted sales.
 
   ![core_2_importances-SHAP Dot](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/127efb1e-b6b0-4954-9015-f0a6b8bc8fd3)
+
+- The top 5 most important features according the Shap Summary Plot are :
+  - Item_MRP
+  - Outlet_Type_Grocery_Store
+  - Outlet_Type_Supermarket Type3
+  - Item_Visibility
+  - Item_Weight
+
+  * Use the top features from SHAP/feature importance
+
+   - Using top features to select 2 examples outlets :
+        Outlet_Type_Grocery Store : a store having low sales
+        Outlet_Type_Supermarket Type3 : a store having high sales
+    - Create filters for each of the outlet types.
+    - Select Item_Visibility within each OutletType.
+      
+* Individual Shap Force Plots
+
+![core_3_force_plot1](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/553a1fb7-1734-4ae7-9a4e-ad746cc655ca)
+
+As we can see in the force plot above for example 1: there are some features increasing the prediction such as :
+        Item_Visibility
+        Item_Type_Soft Drinks
+        Item_Weight
+        Item_MRP
+Yet, there are many more features pushing the prediction in the opposite direction such as Outlet_Type_Grocery Store.
+
+![core_3_force_plot2](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/7bf6383d-b5d0-40af-9fae-59d7d4640f7c)
+
+As we can see in the force plot above for example 2:
+    While there were a bit factors decreasing the predictions. There were many more features raising the prediction such as:
+    Item_Type_Frozen Foods
+    Item_Visibility
+    Item_MRP
+    Outlet_Type_Grocery Store
+    Outlet_Type_Supermarket Type3
+
+* A Lime tabular explanation
+
+![Lime1](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/347a9ab4-f706-4d73-b2fb-ea90c8111767)
+
+    As we can see in the LIME explanation above for example 1, there were 2 factors contributing to the raising predicted sales, such as:
+        Item_MRP
+        Outlet_Type_Supermarket Type2
+The other features reduced the predicted sales.
+
+![Lime2](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/86ba8622-2468-4866-a3d0-3cabac49e3d0)
+
+    As we can see in the LIME explanation above for example 2, there were 3 factors contributing to the decreasing predicted sales, such as:
+        Item_MRP
+        Outlet_Type_Supermarket Type2
+The other features reduced the predicted sales.
+
+
+
+
+
+
+
+
 
 
 
