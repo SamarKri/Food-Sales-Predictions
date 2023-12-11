@@ -141,8 +141,8 @@ Everything else is unimportant.
   - Item_Visibility
   - Item_Weight
 
-  * Use the top features from SHAP/feature importance
-
+  - Use the top features from SHAP/feature importance
+    
    - Using top features to select 2 examples outlets :
         - Outlet_Type_Grocery Store : a store having low sales
         - Outlet_Type_Supermarket Type3 : a store having high sales
@@ -154,10 +154,10 @@ Everything else is unimportant.
 ![core_3_force_plot1](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/553a1fb7-1734-4ae7-9a4e-ad746cc655ca)
 
 As we can see in the force plot above for example 1: there are some features increasing the prediction such as :
-        - Item_Visibility
-        - Item_Type_Soft Drinks
-        - Item_Weight
-        - Item_MRP
+    - Item_Visibility
+    - Item_Type_Soft Drinks
+    - Item_Weight
+    - Item_MRP
 Yet, there are many more features pushing the prediction in the opposite direction such as Outlet_Type_Grocery Store.
 
 
