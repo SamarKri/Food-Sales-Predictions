@@ -191,6 +191,9 @@ As we can see in the force plot above for example 2:
 
 The other features reduced the predicted sales.
 
+![Explanation1](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/8e5209f0-8f97-4c4e-bdba-13185645ca7a)
+
+
 ![Lime2](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/86ba8622-2468-4866-a3d0-3cabac49e3d0)
 
 
@@ -201,6 +204,8 @@ The other features reduced the predicted sales.
     - Item_Type_Starchy Foods
     
 The other features reduced the predicted sales.
+
+![Explanation2](https://github.com/SamarKri/Food-Sales-Predictions/assets/136517111/561ce24e-407b-422f-80a9-e1af55fdd6d4)
 
 
 
